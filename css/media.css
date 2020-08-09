@@ -1,0 +1,110 @@
+@media (max-width: 1300px){
+  header{
+    background-position: 45% 0%; 
+  }
+  header h1,
+  header .cd-headline{
+    font-size: 20px;
+  }
+ 
+  #About .download-cv-btn{
+    display: flex;
+    justify-content:start;
+    
+  }
+  #About .download-cv-btn>a{
+    text-decoration: none;
+  }
+  .header h2{
+    font-size: 32px;
+  }
+  .web h2{
+    color: #000;
+  }
+  
+  header nav .navbar-collapse{
+    background-color: rgba(0,0,0,0.2)!important;
+  }
+  #About{
+    display: flex;
+  }
+  #About h2{
+    margin-top:20px;
+  }
+  .ul{
+    margin-right:200px;
+    padding-right:40px;
+    
+  }
+  .a2{
+    flex-wrap: wrap;
+  }
+  #About .box >h2::after{
+    text-align: center;
+    left: 30%;
+  }
+  #About .box >h2{
+    text-align: center;
+    
+  }
+}
+@media (min-width: 371px) and (max-width: 1300px){
+
+  footer .foot {
+    font-size: 12px;
+  }
+  header .box-1 h1{
+    font-size: 40px;
+  }
+  header .box-1 p{
+    font-size: 18px;
+  }
+  
+  header nav .navbar-collapse{
+    background-color: none !important;
+  }
+
+}
+@media (min-width: 577px) and (max-width: 1300px) {
+header h4{
+font-size: 20px;
+}
+
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  header nav .navbar-collapse{
+    background-color: none !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1300px) {
+  header h4{
+    font-size: 20px;
+    }
+  header nav .navbar-collapse{
+    background-color: none !important;
+  }
+ 
+}
+@media (min-width: 1181px) and (max-width: 1300px) {
+  header .box-1,
+  header .cd-headline{
+    font-size: 20px;
+    }
+  header nav .navbar-collapse{
+    background-color: none !important;
+  }
+  #About .box >h2::after{
+    text-align: center;
+    left: 0%;
+  }
+  #About .box >h2{
+    left: 0%;
+    text-align: start;
+  }
+ .foot{
+   font-size: 100%;
+ }
+}
+
