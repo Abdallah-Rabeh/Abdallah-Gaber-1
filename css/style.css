@@ -28,7 +28,7 @@ button:focus
 }
 
 header{
-    background-image: url("../Image/slider-01.jpg");
+    background-image: url("../image/slider-01.jpg");
     background-size: cover;
     width: 100%;
     height: 100vh;
